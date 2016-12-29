@@ -159,7 +159,7 @@
 - [vue-dev-server ★5](https://github.com/paulpflug/vue-dev-server) - A small webpack-based development server for building standalone `vue` components
 - [brunch-vue ★9](https://github.com/nblackburn/vue-brunch) - Adds support to Brunch for pre-compiling single file Vue components.
 - [vueify-extract-css ★23](https://github.com/rawcreative/vueify-extract-css) - Browserify plugin to extract css from Vueify-compiled single file components to a separate css file.
-- [eslint-plugin-vue ★29](https://github.com/Twiknight/eslint-plugin-vue) - Eslint plugin for .vue files.
+- [eslint-plugin-vue ★21](https://github.com/vuejs/eslint-plugin-vue) - Eslint plugin for .vue files.
 - [**vbuild ★204**](https://github.com/egoist/vbuild) - Vue happiness build tool.
 - [vue-markdown-loader ★2](https://github.com/QingWei-Li/vue-markdown-loader) Convert Markdown file to Vue Component using markdown-it.
 - [vue-cluster](https://github.com/VueCluster/VueCluster) Official Vue2 Socketcluster server-less framework with examples.
@@ -172,6 +172,7 @@
 - [express-vue-builder](https://github.com/xpepermint/express-vue-builder) - Vue.js server-side rendering middleware for Express.js.
 - [sprockets-vue ★8](https://github.com/kikyous/sprockets-vue) - Translate `.vue` files to pure JavaScript for Rails Assets Pipeline, without webpack.
 - [**nuxt.js ★1,012**](https://github.com/nuxt/nuxt.js) - A minimalistic framework for server-rendered Vue.js applications.
+- [vue-component-generator](https://github.com/lakb248/vue-component-generator) - A generator for Vue Component.
 
 ### Syntax Highlighting
 
@@ -193,6 +194,7 @@
  - [Use multiple files in vue-router](https://github.com/vuejs-br/snippets/blob/master/router/use-multiple-files.md)
  - [Vue Permission Directive](https://github.com/vuejs-br/snippets/blob/master/directives/vue-permission.md)
  - [Bootstrap status label (v-label)](https://github.com/vuejs-br/snippets/blob/master/directives/v-label.md)
+- [VueHelper](https://github.com/OYsun/vscode-VueHelper) ![VueHelper](https://img.shields.io/github/stars/OYsun/vscode-VueHelper.svg?style=social&label=Star&maxAge=2592000)Vue,Vue-router and Vuex snippets for Vscode by [@OYsun](web-oysun.cn)
 
 ### Autocomplete
 
@@ -218,7 +220,7 @@
   - [vue-parallax ★3](https://github.com/vue-comps/vue-parallax): Scrolls a image slower than the window to create a neat optical effect
   - [vue-zoombox ★0](https://github.com/vue-comps/vue-zoombox): implementation of [zoomerang](https://github.com/yyx990803/zoomerang), Zooms into everything (images, text) - without animations
   - [vue-icons ★10](https://github.com/vue-comps/vue-icons): webpack based - load only what you need - svg inline icons - font compatible mode - fa, material, mdi and octicons
-- [**keen-ui ★551**](https://github.com/JosephusPaye/Keen-UI): A collection of essential UI components inspired by Material Design
+- [**keen-ui ★551**](https://github.com/JosephusPaye/Keen-UI): A collection of essential UI components inspired by Material Design <sup>1.0</sup>
 - [material-ui-vue](http://material-ui-vue.jackyang.me/docs/index.html#!/components/badges/badge): materializecss UI components with Vue, by [@jack](https://github.com/JackGit)
 - [vue-spectre](https://vace.me/a/vue-spectre/index.html): [github](https://github.com/vace/vue-spectre),spectre components built with Vue.js by [@vace](http://github.com/vace) <sup>1.0</sup>
 - [**vue-desktop ★219**](https://github.com/ElemeFE/vue-desktop): A UI library for building admin panel website, by [@ElemeFE](https://github.com/ElemeFE)
@@ -274,6 +276,7 @@
 - [vue-scroller ★60](https://github.com/wangdahoo/vue-scroller) - Vue component for smooth scrolling, pull to refresh and infinite loading. by [@wangdahoo](https://github.com/wangdahoo)
 - [vue-prosemirror-2](https://github.com/eljefedelrodeodeljefe/vue-prosemirror-2) Plugin to integrate prosemirror with Vue 2 <sup>2.x compatible</sup> by [@eljefedelrodeodeljefe](https://github.com/eljefedelrodeodeljefe)
 - [Vue2Leaflet](https://github.com/KoRiGaN/Vue2Leaflet/) Vue2 component that helps with leaflet interaction (Leaflet = a JavaScript library for interactive maps)
+- [vue-impression](https://github.com/NewDadaFE/vue-impression) A Vue.js 2.0 UI elements for mobile. by[@NewDadaFE](https://github.com/NewDadaFE)
 
 ### Libraries & Plugins
 
@@ -299,6 +302,7 @@
   - [vue-jsonp](https://github.com/LancerComet/vue-jsonp) - A tiny library for handling JSONP request. By [@lancercomet](https://github.com/lancercomet)
   - [@skyrpex/props-to-local](https://github.com/skyrpex/props-to-local) - A mixin that allows syncing props to local attributes automatically, by [@skyrpex].
   - [v-model ★5](https://github.com/laoshu133/v-model) - V-Model is a model plugin for Vue.js, like ng-resource, by [@laoshu133](https://github.com/laoshu133)
+  - [vue-reload-route-data](https://github.com/imcvampire/vue-reload-route-data) - Give you a ability to reload route data by @imcvampire.
 
 - #### State Management
 
@@ -456,13 +460,14 @@
   - [vue-parallax](https://github.com/apertureless/vue-parallax): 60 FPS Parallax scroll effect for Vue.js 2 <sup>2.1+</sup>
   - [vue-quill-editor ★](https://github.com/surmon-china/vue-quill-editor) Quill editor component for Vue2  [@Surmon](https://github.com/surmon-china)
   - [vue-drag-zone ★](https://github.com/surmon-china/vue-drag-zone) Dom Drag Zone component for Vue.js(2.x)  [@Surmon](https://github.com/surmon-china)
-
+  - [Vuep](https://github.com/QingWei-Li/vuep) A component for rendering Vue components with live editor and preview.<sup>2.0</sup>
+  - [vue-mobiledoc-editor ★](https://github.com/alidcastano/vue-mobiledoc-editor) a mobiledoc editor component toolkit for Vue2.
 - #### i18n
   - [**vue-i18n ★271**](https://github.com/kazupon/vue-i18n): Internationalization plugin by @kazupon <sup>1.0, 2.0-pre-alpha compatible</sup>
   - [vue-localize ★11](https://github.com/vuedev-com/vue-localize): Internationalization plugin for vue.js based applications
   - [vue-i18n ★36](https://github.com/Haixing-Hu/vue-i18n): A plugin providing a global interface used to localize internationalized messages used in the application.  By @Haixing-Hu
   - [vue-i18n ★20](https://github.com/jinzhe/vue-i18n): Internationalization plugin by @jinzhe<sup>1.x</sup>
-  - [vue-locale ★11](https://github.com/sebastian-software/vue-locale): Advanced localization support for VueJS by @sebastiansoft
+  - [vue-locale ★21](https://github.com/sebastian-software/vue-locale): Advanced localization support for VueJS by @sebastiansoft
   - [vue-jade-editor ★1](https://github.com/zxdong262/vue-jade-editor): a online jade(pug) editor plugin by [@zxdong262](https://github.com/zxdong262)
   - [vue-video ★40](https://github.com/hilongjw/vue-video): A HTML5 video player component for Vue.js  by @hilongjw
   - [vue-i18n](https://github.com/MattyRad/vue-i18n): A small but effective Internationalization plugin
@@ -470,6 +475,7 @@
   - [vuex-i18n ★1](https://github.com/dkfbasel/vuex-i18n): Internationalization made simple with vue and vuex <sup>Vue.js 2.0.x</sup> by @dkfbasel
   - [vue-gettext ★11](https://github.com/Polyconseil/vue-gettext): Translate your Vue.js applications with gettext <sup>Vue.js 2.0.x</sup>
   - [vuejs-carousel](https://github.com/ludo237/vuejs-carousel): Complete photo carousel build with VueJS and web standards in mind<sup>VueJs 2.1.6+</sup>
+  - [vue-progressbar-xeonpowder ★1](https://github.com/XeonPowder/vue-progressbar): A progressbar forked from @hilongjw, updated by @XeonPowder, with more bells and whistles for Vue.JS 2+
 
 - #### Analytics
   - [**vue-ua [![GitHub stars](https://img.shields.io/github/stars/ScreamZ/vue-analytics.svg)](https://github.com/ScreamZ/vue-analytics)**](https://github.com/ScreamZ/vue-analytics): Google Universal Analytics implementation for Vue.JS 2+
@@ -732,6 +738,7 @@ vue-router 2.0, vue-infinite-scroll 2.0, vue-progressbar 2.0 by [TIGERB](https:/
   - [Rubik Cube](https://caolinjian.github.io/rubik-cube/dist/index.html) <sup>[[Source]](https://github.com/caolinjian/rubik-cube)</sup>: 魔方
   - [Peek-a-tab, Tabs Manager for Google Chrome™](https://chrome.google.com/webstore/detail/peek-a-tab-tabs-manager-f/nnpdamdaknpnohmlbnmgphiodghbohop)<sup>[[Source]](https://github.com/pramjeet/peek-a-tab)</sup> A Chrome Extension for tabs management, Search, preview, jump across, and close tabs quickly.
   - [Web Learn](https://freearhey.github.io/web-learn) <sup>[[Source]](https://github.com/freearhey/web-learn)</sup>: A service which provides simple access to thousands of video tutorials on web developing and programming.
+  - [ExcelJSON](http://exceljson.com) <sup>[[Source]](https://github.com/palerdot/exceljson)</sup>: A tool to convert CSV, TSV to/from JSON.
 
 - #### Commercial Products
 
@@ -803,6 +810,7 @@ vue-router 2.0, vue-infinite-scroll 2.0, vue-progressbar 2.0 by [TIGERB](https:/
    - [SlugSurvival](https://github.com/zllovesuki/slugsurvival) A webapp that helps student better plan their courses (hobby project, not in affiliation with UCSC). [Short Introduction](https://slugsurvival.com/explain/gif)
    - [LIHKG討論區](https://lihk-forum.firebaseapp.com) Unofficial Web client for LIHKG forum
    - [FreePoll.Online](https://www.freepoll.online) - A group decision making tool built using Vue.js, [vue-sortable](https://github.com/sagalbot/vue-sortable), [Semantic UI](https://github.com/semantic-org/semantic-ui/) and [Zappa](https://github.com/Miserlou/Zappa).
+   - [GitRelease](https://github.com/ChangJoo-Park/gitrelease-app), Track github project's new release on mac menubar using vue.js with electron.
 
 - #### Interactive Experiences
 
